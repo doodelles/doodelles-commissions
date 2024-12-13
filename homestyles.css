@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('BACKGROUND.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: 'Courier New', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333; 
+    padding: 20px; 
+    text-align: center;
+}
+
+/* Header Styles */
+header h1 {
+    font-size: 2.5em;
+    background: linear-gradient(to bottom, #ff2190, #ffffff);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px solid #333; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+/* Content Styles */
+.content {
+    font-family: 'Courier New';
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    font-weight: 900;
+    gap: 50px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333; 
+    padding: 20px; 
+}
+
+.content p {
+    text-align: center; 
+}
+
+
+/* Navigation Bar Styles */
+nav {
+    width: 100%; 
+    margin: 10px auto; 
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+nav li {
+    margin-right: 20px; 
+}
+
+nav li a { display: block; padding: 10px 15px; 
+        text-align: center; color: rgb(0, 0, 0); 
+        text-decoration: none;
+        font-size: 0.8em; 
+        border-radius:50px; 
+        border: 2px solid #333; 
+        font-weight: bold;
+        background: linear-gradient(to bottom, #ffffff, #ff2190);
+}
+nav li a:hover {
+    background: linear-gradient(to bottom, #ffffff, #ff9ccd);
+}
+
+/* Music Styles*/
+.music {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+
+.music img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    border: 2px solid #333; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px 0; 
+}
+
+.music audio {
+    width: 100%; 
+    max-width: 600px; 
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.music p {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #333;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/*EXPERIMENTAL AREA*/
+.accordion h3 {
+    cursor: pointer;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ff9ccd, #ffffff);
+    color: rgb(0, 0, 0);
+    border: 1px solid #333;
+    margin: 0;
+}
+
+.accordion .panel {
+    padding: 0 10px;
+    display: none;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #333;
+}
